@@ -30,5 +30,8 @@ API for mechanics computation using ROS
     - Isolamento de nós ou de seções
     - Equilíbrio de Forças
     - Equilíbrio de Momentos
+    
+#### Cursos:
+- https://www.udacity.com/course/robotics-software-engineer--nd209
 
 
