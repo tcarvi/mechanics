@@ -35,5 +35,6 @@ API for mechanics computation using ROS
 - https://www.udacity.com/course/robotics-software-engineer--nd209
 - https://www.udacity.com/course/sensor-fusion-engineer-nanodegree--nd313
 - https://www.coursera.org/specializations/iot#courses
+- https://www.coursera.org/specializations/iot#courses
 
 
