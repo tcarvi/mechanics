@@ -1,9 +1,12 @@
-# mechanics
-API for mechanics computation using ROS
+# tmechanics
+- API de cálculos de engenhaira mecânica (foco em edificações)
+- Com uso da framework ***ROS*** para comunicação e interação dos processos
 
 #### Elementos estruturais
+- Lajes
 - Vigas
-- Colunas
+- Colunas / pilares
+- Fundações
 
 #### Tipos de apoio:
 - Apoio Móvel (Rolete) ou Apoio Liso
@@ -40,9 +43,9 @@ API for mechanics computation using ROS
     - Há movimento ou tendência de movimento para que corpo flerte-se ao redor de eixo que se encontra na área da superfície.
 
 #### Diagrama de Corpo Livre
-- 1) Desenhe as os corpos isoladamente (esboço geral)
-- 2) Indique, sem quantificar, as forças ativas e reativas que agem nos corpos. (uso de vetores)
-- 3) Quantifique a magnitude das forças
+1. Desenhe os corpos isoladamente (esboço geral)
+2. Indique, sem quantificar, as forças ativas e reativas que agem nos corpos. (uso de vetores)
+3. Quantifique a magnitude das forças
 
 #### Conexões de transmissão de força: 
 - Molas: 
