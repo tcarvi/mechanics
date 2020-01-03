@@ -26,3 +26,6 @@
     - Barras
     - Cantoneiras
     - Fio de máquina
+- Propriedades usadas em cálculos de engenharia civil:
+    - Tensão máxima admissível
+    - Tabela de propriedades de materiais
