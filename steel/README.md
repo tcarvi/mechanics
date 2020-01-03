@@ -1,0 +1,28 @@
+# Steel ( Aço )
+
+- Liga metálica
+- Composição:
+    - 98,5% de Fe (Ferro)
+    - 0,5% a 1,7% de C (Carbono)
+    - Traços de Si (Silício), S (Enxofre) e de P (Fósforo)
+- Obtenção:
+    - A partir da purificação do ferro-gusa que tem de 2% a 5% de C.
+    - O ferro-gusa é fundido em alto forno e reage com oxigênio, formando Gás Carbônico que é desprendido.
+    - O desprendimento gasoso gera a diminuição da porcentagem do Carbono.
+- Propriedades:
+    - Pode sofrer forja
+    - Pode sofrer laminação
+    - Pode sofrer extrusão
+    - Maior tenacidade (resistência mecânica) do que o ferro bruto
+    - Maior dureza (capacidade de riscar) do que outros materiais com a mesma tenacidade
+    - Baixo custo em comparação com outros materiais com a mesma tenacidade
+    - Na construção civil:
+        - Usado no concreto armado 
+        - Fornece resistência à tração nos elementos estruturais
+        - Fornece resistência às forças perpendiculares que agem contra o edifício, como contra o vento, por exemplo.
+- Produtos:
+    - Vergalhões
+    - Perfis
+    - Barras
+    - Cantoneiras
+    - Fio de máquina
