@@ -6,13 +6,14 @@ API for mechanics computation using ROS
 - Colunas
 
 #### Tipos de apoio:
-- Rolete ou Apoio Móvel
+- Apoio Móvel (Rolete) ou Apoio Liso
+    - Reação aproximadamente nula para as forças paralelas à superfície
 - Articulação ou Pino
-    - Pino externo
-    - Pino interno
+    - Reação aproximadamente nula para as forças de rotação
+    - Momento fletor (tendência de movimento rotacional) com valor aproximadamente nulo 
 - Engastamento ou Apoio Fixo
-- Apoio liso
-- Apoio Fixo
+    - Geração de reação às forças paralelas às superfície
+    - Geração de momento fletor
 
 #### Cargas:
 - Forças de Superfície:
