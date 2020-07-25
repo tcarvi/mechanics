@@ -122,3 +122,6 @@
 - https://www.udacity.com/course/sensor-fusion-engineer-nanodegree--nd313
 - https://www.coursera.org/specializations/iot#courses
 - https://www.coursera.org/specializations/iot#courses
+
+#### Livros:
+Hibbeler, R. C. Resitência dos Materiais; [tradução Sérgio Nascimento]. São Paulo: Pearson Education do Brasil, 2018. [Título Original: Mechanics of materials. 10 ed estadunidense.]
