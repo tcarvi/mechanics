@@ -2,12 +2,20 @@
 - API de cálculos de engenharia mecânica (foco em edificações)
 - Com uso da framework ***ROS*** para comunicação e interação dos processos
 
-#### Elementos estruturais
-- Lajes
-- Vigas
-- Colunas / pilares / eixos
-- Fundações
-
+#### Elementos Estruturais
+- Estruturas lineares:
+    - Vigas
+    - Colunas / pilares / eixos verticais ou oblíquos
+    - Pórticos
+    - Treliças
+    - Grelhas    
+    - Estruturas pênseis 
+    - Arcos 
+- Estruturas de superfície
+    - Lajes
+    - Fundações
+- Estruturas de volume
+    
 #### Tipos de apoio:
 - Apoio Móvel (Rolete) ou Apoio Liso
     - Reação aproximadamente nula para as forças paralelas à superfície
