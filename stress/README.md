@@ -8,12 +8,15 @@
 
 - Tensão de tração ou de compressão
      - Tensão normal que comprime o eixo do receptor da força.
+     - Este estado de tensão pode ser resultado de uma combinação de cargas. 
 
 - Tensão de torção
      - Tensão normal que gera rotacão do eixo
+     - Este estado de tensão pode ser resultado de uma combinação de cargas. 
 
 - Tensão de flexão
      - Tensão normal que gera flexão do eixo
+     - Este estado de tensão pode ser resultado de uma combinação de cargas. 
 
 - Medidas:
     - 1 Pascal = Pa = N / M2 = (newtom) / (metro quadrado)
