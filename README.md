@@ -4,12 +4,18 @@
 
 #### Elementos Estruturais
 - Estruturas lineares:
-    - Colunas / pilares / eixos verticais ou oblíquos
-    - Vigas
+    - Eixos verticais / Colunas / Pilares 
+    - Eixos horizontais / Vigas
+    - Eixos oblíquos
     - Pórticos
+        - Junções de eixos
     - Treliças
-    - Grelhas    
-    - Estruturas pênseis 
+        - Junções de eixos metálicos
+    - Grelhas
+        - Junções de vigas
+    - Cabos:
+        - Estruturas pênseis (forças verticais)
+        - Estruturas estaiadas (forças oblíquas)
     - Arcos 
 - Estruturas de superfície
     - Lajes
