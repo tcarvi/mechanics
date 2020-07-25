@@ -11,15 +11,25 @@
 #### Tipos de apoio:
 - Apoio Móvel (Rolete) ou Apoio Liso
     - Reação aproximadamente nula para as forças paralelas à superfície
-    - Deve-se considerar a combinação de forças, identificada em "diagrama de corpo livre".
-    - Reação para forças ortogonais ou oblíquas à superfície
+    - Reação para forças ortogonais ou oblíquas à superfície do pino.
+    - Momento Fletor (tendência de movimento rotacional):
+        - Deve-se considerar a combinação de forças ortoganais ou oblíquas à superfície, identificada em "diagrama de corpo livre". Apenas as forças de reação paralela são nulas.
+    - Momento Torsor:
+        - Deve-se considerar a combinação de forças ortoganais ou oblíquas à superfície, identificada em "diagrama de corpo livre".
 - Articulação ou Pino
-    - Reação aproximadamente nula para as forças de rotação
-    - Momento fletor (tendência de movimento rotacional) com valor aproximadamente nulo
-    - Deve-se considerar a combinação de forças, identificada em "diagrama de corpo livre". 
-    - Reação para forças ortogonais, paralelas ou oblíquas à superfície.
+    - Reação aproximadamente nula para todas as forças coplanares ao plano de rotação,  que não se dirijam especificamente contra o pino.
+    - Reação para todas as forças não coplanares ao plano de rotação.
+    - Reação para forças que se dirijam especificamente contra o pino, mesmo sendo coplanares ao plano de rotação.
+    - Momento Fletor (tendência de movimento rotacional):
+        - Valor aproximadamente nulo, no eixo de rotação do pino.
+        - Pode existir quando consideramos forças não coplanares ao eixo de rotação do pino. Deve-se analisar a combinação de forças, identificada em "diagrama de corpo livre". 
+        - Se a articulação do apoio for uma esfera, momento fletor terá valor aproximadamente nulo em qualquer dos eixos de rotação.
+    - Momento Torsor:
+        - Não existe, no eixo de rotação do pino.
+        - Pode existir quando consideramos forças não coplanares ao eixo de rotação do pino. Deve-se analisar a combinação de forças, identificada em "diagrama de corpo livre". 
+        - Se a articulação do apoio for uma esfera, momento torsor terá valor aproximadamente nulo em qualquer dos eixos de rotação.
 - Engastamento ou Apoio Fixo
-    - Reação para forças ortogonais, paralelas ou oblíquas à superfície.
+    - Reação para forças ortogonais, paralelas ou oblíquas à superfície, considerando as 3 dimensões do espaço vetorial.
     - Geração de momento fletor, conforme análise da combinação de forças, identificada em "diagrama de corpo livre".
     - Geração de momento torsor, conforme análise da combinação de forças, identificada em "diagrama de corpo livre".
 
