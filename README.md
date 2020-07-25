@@ -4,8 +4,8 @@
 
 #### Elementos Estruturais
 - Estruturas lineares:
-    - Vigas
     - Colunas / pilares / eixos verticais ou oblíquos
+    - Vigas
     - Pórticos
     - Treliças
     - Grelhas    
