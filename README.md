@@ -83,6 +83,15 @@
             - Deve-se considerar a combinação de forças ortoganais ou oblíquas à superfície, identificada em "diagrama de corpo livre". Apenas as forças de reação longitudinal ao eixo do mancal são nulas.
         - Momento Torsor:
             - Deve-se considerar a combinação de forças ortogonais ou oblíquas à superfície, identificada em "diagrama de corpo livre".
+- Cabo
+    - Possui flexibilidade de movimento para transmissão da força do engastamento.
+    - Reação de Força:
+        - Reação apenas contra a força resultante que traciona o cabo.
+    - Reação de Momento:
+        - Momento Fletor (tendência de movimento rotacional):
+            - Valor aproximadamente nulo em todos os eixos diferentes do eixo da força resultante que traciona o cabo.
+        - Momento Torsor:
+            - Valor aproximadamente nulo em todos os eixos diferentes do eixo ortogonal à força resultante que traciona o cabo.
 - Cargas
     - De superfície
         - Concentradas (ação em uma pequena área)
