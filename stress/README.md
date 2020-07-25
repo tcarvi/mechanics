@@ -1,13 +1,13 @@
 # stress (tensão)
 
+- **Tensão normal**
+     - Tensão = ( força axial ) / ( área da seção ortogonal à força axial )
+
+- **Tensão cisalhamento**
+     - Tensão = ( força de cisalhamento ) / ( área do corte longitudinal à força não axial )
+
 - Tensão de tração ou de compressão
-    - Tensão = ( força axial ) / ( área da seção transversal/ortogonal à força axial )
-
-- Tensão normal
-     - Tensão = ( força normal ) / ( ... )
-
-- Tensão cisalhamento
-     - Tensão = ( força de cisalhamento ) / ( ... )
+     - Tensão normal que comprime o eixo do receptor da força.
 
 - Medidas:
     - 1 Pascal = Pa = N / M2 = (newtom) / (metro quadrado)
