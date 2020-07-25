@@ -22,37 +22,73 @@
     - Fundações
 - Estruturas de volume
     
-#### Tipos de apoio:
+#### Tipos de apoio ou conexões:
 - Apoio Móvel (Rolete) ou Apoio Liso
-    - Reação aproximadamente nula para as forças paralelas à superfície
-    - Reação para forças ortogonais ou oblíquas à superfície do pino.
-    - Momento Fletor (tendência de movimento rotacional):
-        - Deve-se considerar a combinação de forças ortoganais ou oblíquas à superfície, identificada em "diagrama de corpo livre". Apenas as forças de reação paralela são nulas.
-    - Momento Torsor:
-        - Deve-se considerar a combinação de forças ortoganais ou oblíquas à superfície, identificada em "diagrama de corpo livre".
-- Articulação ou Pino
-    - Reação aproximadamente nula para todas as forças coplanares ao plano de rotação,  que não se dirijam especificamente contra o pino.
-    - Reação para todas as forças não coplanares ao plano de rotação.
-    - Reação para forças que se dirijam especificamente contra o pino, mesmo sendo coplanares ao plano de rotação.
-    - Momento Fletor (tendência de movimento rotacional):
-        - Valor aproximadamente nulo, no eixo de rotação do pino.
-        - Pode existir quando consideramos forças não coplanares ao eixo de rotação do pino. Deve-se analisar a combinação de forças, identificada em "diagrama de corpo livre". 
-        - Se a articulação do apoio for uma esfera, momento fletor terá valor aproximadamente nulo em qualquer dos eixos de rotação.
-    - Momento Torsor:
-        - Não existe, no eixo de rotação do pino.
-        - Pode existir quando consideramos forças não coplanares ao eixo de rotação do pino. Deve-se analisar a combinação de forças, identificada em "diagrama de corpo livre". 
-        - Se a articulação do apoio for uma esfera, momento torsor terá valor aproximadamente nulo em qualquer dos eixos de rotação.
+    - Reação de Força:
+        - Reação aproximadamente nula para as forças paralelas à superfície
+        - Reação para forças ortogonais ou oblíquas à superfície do pino.
+    - Reação de Momento:
+        - Momento Fletor (tendência de movimento rotacional):
+            - Deve-se considerar a combinação de forças ortoganais ou oblíquas à superfície, identificada em "diagrama de corpo livre". Apenas as forças de reação paralela são nulas.
+        - Momento Torsor:
+            - Deve-se considerar a combinação de forças ortoganais ou oblíquas à superfície, identificada em "diagrama de corpo livre".
+- Articulação com rotação em 1 plano (Pino)
+    - Reação de Força:
+        - Reação aproximadamente nula para todas as forças ortogonais ao eixo de rotação, que não se dirijam especificamente contra o pino.
+        - Reação para todas as forças não ortogonais ao eixo de rotação.
+        - Reação para forças que se dirijam especificamente contra o pino, sendo ortogonal ou não ao eixo de rotação.
+    - Reação de Momento:
+        - Momento Fletor (tendência de movimento rotacional):
+            - Valor aproximadamente nulo, no eixo de rotação do pino.
+            - Pode existir quando consideramos forças não ortogonais ao eixo de rotação do pino. Deve-se analisar a combinação de forças, identificada em "diagrama de corpo livre". 
+        - Momento Torsor:
+            - Não existe, no eixo de rotação do pino.
+            - Pode existir quando consideramos forças não ortogonais ao eixo de rotação do pino. Deve-se analisar a combinação de forças, identificada em "diagrama de corpo livre". 
+- Articulação com rotação em todos os planos do espaço 3D
+    - Reação de Força:
+        - Reação aproximadamente nula para todas as forças de rotação, que não se dirijam especificamente contra a esfera de rotação.
+        - Reação para forças que se dirijam especificamente contra a esfera de rotação
+    - Reação de Momento:
+        - Momento Fletor (tendência de movimento rotacional):
+            - Valor aproximadamente nulo em todos os eixos de rotação
+        - Momento Torsor:
+            - Valor aproximadamente nulo em todos os eixos de rotação
 - Engastamento ou Apoio Fixo
-    - Reação para forças ortogonais, paralelas ou oblíquas à superfície, considerando as 3 dimensões do espaço vetorial.
-    - Geração de momento fletor, conforme análise da combinação de forças, identificada em "diagrama de corpo livre".
-    - Geração de momento torsor, conforme análise da combinação de forças, identificada em "diagrama de corpo livre".
+    - Reação de Força:
+        - Reação para forças ortogonais, paralelas ou oblíquas à superfície, considerando as 3 dimensões do espaço vetorial.
+    - Reação de Momento:
+        - Geração de momento fletor, conforme análise da combinação de forças, identificada em "diagrama de corpo livre".
+        - Geração de momento torsor, conforme análise da combinação de forças, identificada em "diagrama de corpo livre".
+- Mancal de rolamento axial
+    - Estrutura similar a um pino, pois há engastamento axial na parede interna do rolamento
+    - Reação de Força:
+        - Reação aproximadamente nula para todas as forças coplanares ao plano de rotação, que não se dirijam especificamente contra o pino.
+        - Reação para todas as forças não coplanares ao plano de rotação.
+        - Reação para forças que se dirijam especificamente contra o engastamento com mancal, mesmo sendo coplanares ao plano de rotação.
+    - Reação de Momento:
+        - Momento Fletor (tendência de movimento rotacional):
+            - Valor aproximadamente nulo, no eixo de rotação do rolamento.
+            - Pode existir quando consideramos forças não ortogonais ao eixo de rotação do rolamento. Deve-se analisar a combinação de forças, identificada em "diagrama de corpo livre". 
+        - Momento Torsor:
+            - Não existe, no eixo de rotação do pino.
+            - Pode existir quando consideramos forças não ortogonais ao eixo de rotação do pino. Deve-se analisar a combinação de forças, identificada em "diagrama de corpo livre".
+- Mancal radial
+- Cargas
+    - De superfície
+        - Concentradas (ação em uma pequena área)
+        - Distribuídas (ação em uma área maior)
+        - Obs. Para o caso de carregamento coplanar, a força resultante é igual a área sob o diagrama de carga distribuída e esta força age no centro geométrico ou centroide da área.
+    - De corpo (sem contato físico direto)
+        - Força gerada pelo campo gravitacional que age sobre o centro de gravidade do corpo
+        - Força gerada pelo campo eletromagnético
 
-#### Cargas:
-- Forças de Superfície:
-    - Forças concentradas. (aproximação aceitável para o cálculo)
-    - Forças distribuídas
-- Forças de Corpo
-    - Peso gravitacional
+- Medição:
+    - Diagrama de carga distribuída
+    - Medidas:
+        - 1 Pascal = Pa = N / M2 = (newtom) / (metro quadrado)
+        - 1 KPa = 1.000 Pa
+        - 1 MPa = 1.000.000 Pa
+        - 1 GPa = 1.000.000.000 Pa 
 
 #### Forças:
 - internas
@@ -116,6 +152,10 @@
 - Momento de inércia
 - Teorema de eixos paralelos
 - Raio de Giração
+
+#### Teoria da elasticidade
+
+#### Teoria da plasticidade
 
 #### Cursos:
 - https://www.udacity.com/course/robotics-software-engineer--nd209
