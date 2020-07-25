@@ -1,22 +1,27 @@
 # tmechanics
-- API de cálculos de engenhaira mecânica (foco em edificações)
+- API de cálculos de engenharia mecânica (foco em edificações)
 - Com uso da framework ***ROS*** para comunicação e interação dos processos
 
 #### Elementos estruturais
 - Lajes
 - Vigas
-- Colunas / pilares
+- Colunas / pilares / eixos
 - Fundações
 
 #### Tipos de apoio:
 - Apoio Móvel (Rolete) ou Apoio Liso
     - Reação aproximadamente nula para as forças paralelas à superfície
+    - Deve-se considerar a combinação de forças, identificada em "diagrama de corpo livre".
+    - Reação para forças ortogonais ou oblíquas à superfície
 - Articulação ou Pino
     - Reação aproximadamente nula para as forças de rotação
-    - Momento fletor (tendência de movimento rotacional) com valor aproximadamente nulo 
+    - Momento fletor (tendência de movimento rotacional) com valor aproximadamente nulo
+    - Deve-se considerar a combinação de forças, identificada em "diagrama de corpo livre". 
+    - Reação para forças ortogonais, paralelas ou oblíquas à superfície.
 - Engastamento ou Apoio Fixo
-    - Geração de reação às forças paralelas às superfície
-    - Geração de momento fletor
+    - Reação para forças ortogonais, paralelas ou oblíquas à superfície.
+    - Geração de momento fletor, conforme análise da combinação de forças, identificada em "diagrama de corpo livre".
+    - Geração de momento torsor, conforme análise da combinação de forças, identificada em "diagrama de corpo livre".
 
 #### Cargas:
 - Forças de Superfície:
@@ -37,10 +42,10 @@
 - Força Normal (Força perpendicular à superfície de contato) (vinculação com Momento de Torção) ?
 
 #### Momentos:
-- Momento de Torção ou Torque (vinculação com Força Normal) ?
-    - Há movimento ou tendência de movimento para que corpo gire/torcer-se ao redor de eixo perpendicular à área da superfície.
-- Momento Fletor (vinculação com Força de Cisalhamento) ?
-    - Há movimento ou tendência de movimento para que corpo flerte-se ao redor de eixo que se encontra na área da superfície.
+- Momento Torsor (de Torção ou Torque)
+    - Há movimento ou tendência de movimento para que o corpo gire/torça-se em torno de seu eixo longitudinal.
+- Momento Fletor
+    - Há movimento ou tendência de movimento para que corpo flerte-se no sentido ortogonal ou oblíquo ao seu eixo longitudinal.
 
 #### Diagrama de Corpo Livre
 1. Desenhe os corpos isoladamente (esboço geral)
@@ -63,11 +68,13 @@
 
 #### Tensão
 - Tensão Normal
-- Tensão Cisilhante
+- Tensão Cisalhante
 - Tensão de escoamento
 - Tensão máxima suportada
 
 #### Deformação
+- Deformação Normal
+- Deformação Cisalhante
 - Deformação máxima suportada
 - Deslocamento de elemento estrutural
 
