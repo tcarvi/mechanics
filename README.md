@@ -31,7 +31,7 @@
         - Momento Fletor (tendência de movimento rotacional):
             - Deve-se considerar a combinação de forças ortoganais ou oblíquas à superfície, identificada em "diagrama de corpo livre". Apenas as forças de reação paralela são nulas.
         - Momento Torsor:
-            - Deve-se considerar a combinação de forças ortoganais ou oblíquas à superfície, identificada em "diagrama de corpo livre".
+            - Deve-se considerar a combinação de forças ortogonais ou oblíquas à superfície, identificada em "diagrama de corpo livre".
 - Articulação com rotação em 1 plano (Pino)
     - Reação de Força:
         - Reação aproximadamente nula para todas as forças ortogonais ao eixo de rotação, que não se dirijam especificamente contra o pino.
@@ -59,12 +59,12 @@
     - Reação de Momento:
         - Geração de momento fletor, conforme análise da combinação de forças, identificada em "diagrama de corpo livre".
         - Geração de momento torsor, conforme análise da combinação de forças, identificada em "diagrama de corpo livre".
-- Mancal de rolamento axial
+- Mancal de rolamento com engastamento axial
     - Estrutura similar a um pino, pois há engastamento axial na parede interna do rolamento
     - Reação de Força:
         - Reação aproximadamente nula para todas as forças coplanares ao plano de rotação, que não se dirijam especificamente contra o pino.
         - Reação para todas as forças não coplanares ao plano de rotação.
-        - Reação para forças que se dirijam especificamente contra o engastamento com mancal, mesmo sendo coplanares ao plano de rotação.
+        - Reação para forças que se dirijam especificamente contra o engastamento com mancal, sendo coplanares ou não ao plano de rotação.
     - Reação de Momento:
         - Momento Fletor (tendência de movimento rotacional):
             - Valor aproximadamente nulo, no eixo de rotação do rolamento.
@@ -72,7 +72,17 @@
         - Momento Torsor:
             - Não existe, no eixo de rotação do pino.
             - Pode existir quando consideramos forças não ortogonais ao eixo de rotação do pino. Deve-se analisar a combinação de forças, identificada em "diagrama de corpo livre".
-- Mancal radial
+- Mancal de deslizamento com bucha axial
+    - Estrutura similar a um rolete, pois a bucha permite movimento paralelo à superfície do apoio.
+    - Diferencia-se de um rolete pois o movimento permitido é apenas linear e logitudinal ao eixo do mancal
+    - Reação de Força:
+        - Reação aproximadamente nula para as forças paralelas ao eixo do mancal
+        - Reação para forças ortogonais ou oblíquas ao eixo do mancal, em todos os planos do espaço 3D.
+    - Reação de Momento:
+        - Momento Fletor (tendência de movimento rotacional):
+            - Deve-se considerar a combinação de forças ortoganais ou oblíquas à superfície, identificada em "diagrama de corpo livre". Apenas as forças de reação longitudinal ao eixo do mancal são nulas.
+        - Momento Torsor:
+            - Deve-se considerar a combinação de forças ortogonais ou oblíquas à superfície, identificada em "diagrama de corpo livre".
 - Cargas
     - De superfície
         - Concentradas (ação em uma pequena área)
