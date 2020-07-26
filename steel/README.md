@@ -1,5 +1,4 @@
 # Steel ( Aço )
-
 - Liga metálica
 - Composição:
     - 98,5% de Fe (Ferro)
