@@ -1,4 +1,4 @@
-#### Moment (momento)
+#### Moment (torque ou momento de uma força)
 - Momento Torsor (de Torção ou Torque)
     - Há movimento ou tendência de movimento para que o corpo gire/torça-se em torno de seu eixo longitudinal.
 - Momento Fletor

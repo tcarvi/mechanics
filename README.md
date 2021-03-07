@@ -31,4 +31,5 @@
 - https://www.coursera.org/specializations/iot#courses
 
 #### Livros:
-Hibbeler, R. C. Resitência dos Materiais; [tradução Sérgio Nascimento]. São Paulo: Pearson Education do Brasil, 2018. [Título Original: Mechanics of materials. 10 ed estadunidense.]
+- Hibbeler, R. C. Resitência dos Materiais; [tradução Sérgio Nascimento]. São Paulo: Pearson Education do Brasil, 2018. [Título Original: Mechanics of materials. 10 ed estadunidense.]
+- WALKER, Jearl; HALLIDAY, David; RESNICK, Robert. Fundamentals of Physics Extended Edition. Estados Unidos: John Wiley & Sons, 2014. 10th kindle edition.

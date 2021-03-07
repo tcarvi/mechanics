@@ -4,3 +4,28 @@
 - Discussão para encontrar reações de forças aplicadas em vigas e eixos, mesmo se as reações foram estaticamente indeterminadas.
 - Discussão sobre a flambagem de colunas
 - Impacto e aplicação de métodos de energia para calcular deflexões
+- Dot Product
+    - VetorA = { Ax, Ay, Az }
+    - VetorB = { Bx, By, Bz }
+    - VetorA . VetorB = { Ax.Bx + Ay.By + Az.Bz }
+    - Properties:
+        - Commutativa: VectorA . VectorB = VectorB . VectorA
+        - Associativa da multiplicação por escalar: (Constante multiplicado por VectorA) . VectorB = constante multiplicado por (VectorA . VectorB)
+        - Distributiva para operação de soma de vetores: ( VectorA + VectorB ) . VectorC = ( VectorA . VectorC ) + ( VectorB . VectorC )
+- Length of a Vector
+    - VetorA = { Ax, Ay, Az }
+    - Length of VectorA = sqrt( (Ax)^2 + (Ay)^2 + (Az)^2 )
+    - Length of VectorA = sqrt( dot prodcut between VerctorA and itself )
+    - ( Length of VectorA )^2 = dot product between VerctorA and itself
+- Cross Product (produto vetorial)
+    - VetorA = { Ax, Ay, Az }
+    - VetorB = { Bx, By, Bz }
+    - VetorA X VetorB = { Ay.Bz - By.Az , -Ax.Bz + Bx.Az , Ax.By - Bx.Ay }
+    - A direção do vetor "Cross Product" é ortogonal ao plano dos Vetores A e B. 
+    - O sentido do vetor "Cross Product" pode ser definido pela regra da mão direita.
+        - Dedo Indicador no sentido do VetorA
+        - Dedo Médio no sentido do VetorB
+        - Dedo Polegar indicará o sentido do vetor "Cross Product"
+    - Como o produto escalar de vetores ortogonais é igual a zero:
+        - Dot produt entre "Cross Product" e VertorA é igual a zero.
+        - Dot produt entre "Cross Product" e VertorB é igual a zero.

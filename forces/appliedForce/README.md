@@ -1,0 +1,64 @@
+#### Forces:
+- An applied force is a force that is applied to an object by a person or another object.
+- Tipos:
+    - Devido orientação de seu vetor:
+        - Força Normal (paralela ao eixo do elemento)
+        - Forças de Cisalhamento (ortogonal ou oblíqua ao eixo do elemento)
+    - Devido origem da força
+        - Internas
+        - Externas
+    - Devido contato da força
+        - De superfície
+            - Concentradas (ação em uma pequena área)
+            - Distribuídas (ação em uma área maior)
+            - Obs. Para o caso de carregamento coplanar, a força resultante é igual a área sob o diagrama de carga distribuída e esta força age no centro geométrico ou centroide da área.
+        - De corpo (sem contato físico direto)
+            - Força gerada pelo campo gravitacional que age sobre o centro de gravidade do corpo
+            - Força gerada pelo campo eletromagnético
+- Análise
+    - Diagrama de Corpo Livre
+        1. Desenhe os corpos isoladamente (esboço geral)
+        2. Indique, sem quantificar, as forças ativas e reativas que agem nos corpos. (uso de vetores)
+        3. Quantifique a magnitude das forças
+- Medição:
+    - Diagrama de carga distribuída
+- Conceitos da cinemática de forças:
+    - Equilíbrio de forças no Repouso ou no Movimento Retilínio Uniforme (MRU): 
+        - Somatório de forças = Massa x Vetor Aceleração Nulo. 
+        - Quantidade de movimento: 
+            - Momentum linear: Q = m &sdot; &nu;
+        - Impulso:
+            - I = F &sdot; &Delta;t = &Delta;Q
+    - Equilíbrio de forças no Repouso ou no Movimento Circular Uniforme (MCU):
+        - Quantidade de movimento: 
+            - Momentum angular: L = Q &sdot; R = m &sdot; &nu; &sdot; R
+        - Uso no estudo do movimento da órbita de corpos celestes:
+            - Primeira Lei de Kepler: Planetas e demais corpos do espaço percorrem órbita elípticas, com um ponto de referência para a gravitação em um dos focos da elipse.
+            - Segunda Lei de Kepler: 
+                - Como temos conservação de energia rotacional
+                    - Há conservação do Momentum angular: L = R X Q = R X m &sdot; &nu; &sdot; R = R = m &sdot; &omega;
+                    - A massa é constante e o módulo da velocidade angular também é constante. 
+                    - Mas o raio é alterado durante o movimento de translação. Logo a velocidade linear também deve mudar.
+                    - No movimento de translação, varia-se a velocidade linear e o raio do local de translação. 
+                    - Verifica-se pelos cálculos que a área angular percorrida pelo corpo celestial, a partir do ponto focal do ponto de referência gravitacional, é diretamente proporcional ao tempo do translado. (Segunda Lei de Kepler). Para um mesmo intervalo de tempo, temos sempre uma mesma Área Angular. Os comprimentos do arco de movimentação e a velocidade linear, entretanto, são diferentes.
+                - As velocidades lineares, em locais próximos do foco de referência, são maiores do que as velocidades do movimento executado nos locais distantes deste foco.
+                - O momento angular se conserva durante todo o movimento do corpo celeste.
+                - O comprimento do arco de movimentação será maior se o corpo se movimenta próximo do ponto focal de referência.
+                - O comprimento do arco de movimentação será menor se o corpo se movimenta longe do ponto focal de referência.
+                - No local de menor distância com o ponto focal de referêcia, consideramos que o corpo celestre se encontra no estado de Periélio. Data aproximada: 03/01. No periélio, temos estações climáticas de duração um pouco mais rápidas (alguns dias). O tempo de rotação é o mesmo, mas este tempo de rotação (1 dia) implica uma mudança maior da estação de ano, pois a Terra percorre um arco de translação maior. Logo, em menos dias se termina uma estação climática no Periélio.
+                - No local de maior distância com o ponto focal de referêcia, consideramos que o corpo celeste se encontra no estado de Afélio. Data aproximada: 04/07. No afélio, temos estações climáticas de duração um pouco mais lentas (alguns dias). O tempo de rotação é o mesmo, mas este tempo de rotação (1 dia) implica uma mudança menor da estação de ano, pois a Terra percorre um arco de translação menor. Logo, precisamos de mais dias para o término de uma estação climática no Afélio.
+            - Trópico de Câncer, Linha do Equador e Trópico de Capricórnio. Eixo imaginário de rotação. Inclinação de aproximadamente 23 graus.
+            - Situação Solstício. Perpendicularmente ao trópico de capricórnio. 21/12 Início do Verão no Hemisfério Sul.
+            - Situação de Equinócio. Perpendicularmente à linha do Equador. 22/03. Início do Outono no Hemisfério Sul.
+            - Situação Solstício. Perpendicularmente ao trópico de Câncer. 21/06 Início do Inverno no Hemisfério Sul.
+            - Situação de Equinócio. Perpendicularmente à linha do Equador. 22/09. Início da Primavera no Hemisfério Sul.
+            - Tempo de translação: 365 dias e 6 horas.
+            - Sentido de rotação do planeta terra: olhando para superfície na sua frente: de oeste para leste. A América Latina segue no sentido de encontrar a posição ocupada pela África.
+    - Situação de movimento acelerado: 
+        - Somatório de forças = Vetor Resultante = Massa x Vetor Aceleração.
+        - Vetor aceleração não nulo.
+- Medidas:
+    - 1 Pascal = Pa = N / M2 = (newtom) / (metro quadrado)
+    - 1 KPa = 1.000 Pa
+    - 1 MPa = 1.000.000 Pa
+    - 1 GPa = 1.000.000.000 Pa 
