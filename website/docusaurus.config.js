@@ -11,13 +11,14 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'tcarvi', // Usually your GitHub org/user name.
-  projectName: 'concreto-armado', // Usually your repo name.
+  projectName: 'tmechanics', // Usually your repo name.
   customFields: {
     mainButtonText: 'Comece a projetar',
+    mainButtonUrl: 'docs/topicos'
   },
   themeConfig: {
     navbar: {
-      title: 'Concreto Armado',
+      title: 'Engenharia Civil',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -25,7 +26,7 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'topicos',
           position: 'left',
           label: 'Instruções',
         },
@@ -38,7 +39,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `TCARVI: Estudo de Engenharia Civil. Licensa GNU. ${new Date().getFullYear()}`,
+      copyright: `TCARVI: Engenharia Civil. Licensa GNU. ${new Date().getFullYear()}`,
     },
     prism: {
       theme: lightCodeTheme,
