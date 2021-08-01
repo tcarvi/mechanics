@@ -53,6 +53,7 @@ CATKIN_IGNORE
 # For internal website
 # Dependencies
 website/node_modules
+website/.yarn.lock
 
 # Production
 website/build
