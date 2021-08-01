@@ -14,7 +14,7 @@ module.exports = {
   projectName: 'tmechanics', // Usually your repo name.
   customFields: {
     mainButtonText: 'Comece a projetar',
-    mainButtonUrl: 'docs/topicos'
+    mainButtonUrl: 'docs/concreto-armado/topicos'
   },
   themeConfig: {
     navbar: {
@@ -26,9 +26,15 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'topicos',
+          docId: 'concreto-armado/topicos',
           position: 'left',
-          label: 'Instruções',
+          label: 'Concreto Armado',
+        },
+        {
+          type: 'doc',
+          docId: 'eletricidade/topicos',
+          position: 'left',
+          label: 'Eletricidade',
         },
         {
           href: 'https://github.com/tcarvi',
@@ -55,6 +61,12 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
+        },
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
