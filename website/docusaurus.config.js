@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Engenharia Civil',
-  tagline: 'concreto armado',
+  tagline: 'conceitos, normas e processos',
   url: 'http://tcarvi.com.br',
   baseUrl: '/',
   onBrokenLinks: 'throw',
