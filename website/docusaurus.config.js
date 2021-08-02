@@ -26,6 +26,12 @@ module.exports = {
       items: [
         {
           type: 'doc',
+          docId: 'ros/topicos',
+          position: 'left',
+          label: 'ROS',
+        },
+        {
+          type: 'doc',
           docId: 'concreto-armado/topicos',
           position: 'left',
           label: 'Concreto Armado',
