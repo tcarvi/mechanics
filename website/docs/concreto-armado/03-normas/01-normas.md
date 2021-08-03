@@ -10,3 +10,36 @@ title: "ABNT NBRs"
 - [ABNT NBR 8953](./ABNT-NBR-8953) -> Concreto para fins estruturais, de acordo com critérios de resistência e de consistência.
 - [ABNT NBR 8522](./ABNT-NBR-8522) -> Procedimento para determinação dos módulos de elasticidade tangente inicial e secante.
 - [ABNT NBR 12655](./ABNT-NBR-12655) -> Resistência Característica à Pressçao (Fck)
+
+a NBR 6118 – Projeto de estruturas de concreto – Procedimento
+
+
+NBR 6118
+Projeto de estruturas de concreto
+
+NBR 6123
+Forças devidas ao vento em edificações
+
+NBR 8681
+Ações e segurança nas estruturas
+
+NBR 12655
+ execução do concreto e parâmetros necessários para o projeto,
+
+
+NBR 6120
+Cargas para o cálculo de estruturas de edificações
+
+NBR 6122
+Projeto e execução de fundações
+
+
+
+
+
+NBR 15421
+Projeto de estruturas resistentes a sismos
+
+NBR 8800
+Projeto de estruturas de aço
+
