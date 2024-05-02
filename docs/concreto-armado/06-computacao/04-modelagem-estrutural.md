@@ -1,3 +1,0 @@
----
-title: "Modelagem de Estruturas"
----
