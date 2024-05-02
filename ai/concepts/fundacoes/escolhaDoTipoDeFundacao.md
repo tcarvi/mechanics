@@ -1,0 +1,63 @@
+# Escolha do Tipo de Fundação
+- Estimativa da capacidade resistiva do solo
+    - Idendificação do tipo de solo
+        - A caracterização se baseia no:
+            - Tamanho dos grãos (análise granulométrica) e
+            - Nas características argilominerais definidas indiretamente por meio do comportamento do solo na água, medido pelos limites de Atterberg. 
+        - Tipos possíveis: 
+            - Solo rochoso (rochas em decomposição) 
+            - Solo Arenoso / siltoso
+            - Solo Argiloso
+    - Inspeção do solo
+        - Para idenfificar a natureza do tipo de solo, a espessura das diferentes camadas e a profundidade do solo.
+        - 1) Visitar o local da obra, detectando a eventual existência de alagados, afloramentos de rochas, etc.;
+        - 2) Visitar obras em andamento nas proximidades, verificando as soluções adotadas;
+        - 3) Fazer sondagem a trado (broca) com diâmetro de 2'' ou 4'', recolhendo amostras das camadas até atingir a camada resistente.
+        - 4) Solicitar/Executar sondagem geotécnica
+            - SPT
+                - Ensaio (ou teste) de Penetração Padrão
+                - Standard Penetration Test
+                - Sondagem geotécnica à percussão
+                - Sondagem geotécnica de simples reconhecimento 
+            - Uso do SPT:
+                - Identifica os tipos de solos e suas respectivas profundidades
+                - Identifica a posição do nível d'água
+                - Identifica os índices de resitência à penetração (N) a cada metro.
+            - Procedimento do SPT: 
+                - Realizado de metro em metro 
+                - Realiza o registro do somatório do número de golpes para vencer os dois últimos terços de cada metro para a penetração de 15cm.
+                - Retira-se amostras deformadas a cada 1 metro de solo atravessado;
+                - Mede-se a resistência (N) oferecida pelo solo à cravação do amostrador padrão, ou seja, a cada metro perfurado;
+                - Mede-se a posição do NA quando encontrado durante a perfuração.
+                - Procedimento:
+                    - 1) Perfura-se 75 cm do terreno e se instala o conjunto haste-amostrador no buraco perfurado.
+                    - 2) Instala-se o tripé.
+                    - 3) Instala-se a roldana
+                    - 4) Instala-se a corda segurando um martelo de 65kg
+                    - 5) Instala-se opcionalmente um motor para puxar a corda.
+                    - 6) Levanta-se o martelo de 65kg até a altura de 75 cm e o solta. Repete-se os golpes até se alcançar 15 cm.
+                    - Por exemplo: pode ser que se fez 8 golpes até se alcançar 15 cm. Logo o primeiro registro será 1º -> 8/15. O registro não precisa ser perfeito. Pode ser que foi necessário 11 golpes para se alcançar 16 cm. Logo, o seguinte registro será 2º -> 11/16. E depois se voltou a alcaçar mais 15cm exatamente: logo 3º -> 14/15.
+                    - A medição 1º (primeira) deve ser desconsiderada. Logo, tem-se como medição relevante: no primeiro metro, 25/31.
+                    - medições tratam de 45 cm que representa 
+                    amostrador padrão (parte mais grossa que entrará no solo) por queda livre com um trado manual. (Ex. crava-se o amostrador para começar com altura de 1m, Peso do martelo que baterá na haste do amostrador: 65 kg)
+                    - 1) Crava-se um amostrador padrão (parte mais grossa que entrará no solo) por queda livre com um trado manual. (Ex. crava-se o amostrador para começar com altura de 1m, Peso do martelo que baterá na haste do amostrador: 65 kg)
+            - Sondagem SPT-T (Standard Penetration Test, complementado com medidas de torque)
+            - Sondagem CPT - (Cone Penetration Test)
+            - Sondagem CPT-U - (Cone Penetration Test, complementado com medidas de pressões neutras,também chamado de piezocones)
+            - Sondagem Vane Test (Teste de Palheita)
+            - Pressiômetros (Modelo de Ménard e autoperfurantes)
+            - Dilatômetros (Modelo de Marchetti)
+            - Provas de Carga (Ensaio de carregamento de placa)
+            - Cross-Hole (ensaio geofísico)
+        
+    
+    - Análise dos dados da inspeção para medição da capacidade resistiva do solo. 
+- Decisão sobre possíveis tipos de fundação para o solo identificado e cuja capacidade resistiva foi medida. E cuja carga a ser imposta também já foi medida.
+- Tipos de fundação:
+    - Fundação rasa, superficial ou direta
+        - Radier
+        - Sapata
+        - Vigas contínuas
+    - Fundação profunda ou indireta
+        - Estacas pré-moldadas
+        - Tubulões
